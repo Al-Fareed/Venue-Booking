@@ -400,7 +400,9 @@
         android:layout_marginTop="32dp"
         android:layout_marginBottom="45dp"
         android:orientation="horizontal"
-        android:backgroundTint="@color/grey"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/lightgrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -410,7 +412,7 @@
             android:id="@+id/home"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/white"
+            android:background="@color/lightgrey"
             android:layout_weight="1"
             app:srcCompat="@drawable/home" />
 
@@ -418,7 +420,7 @@
             android:id="@+id/adminHistory"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/white"
+            android:background="@color/lightgrey"
             android:layout_weight="1"
             app:srcCompat="@drawable/history" />
 
@@ -426,7 +428,7 @@
             android:id="@+id/adminSettings"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/white"
+            android:background="@color/lightgrey"
             android:layout_weight="1"
             app:srcCompat="@drawable/setting" />
     </LinearLayout>
