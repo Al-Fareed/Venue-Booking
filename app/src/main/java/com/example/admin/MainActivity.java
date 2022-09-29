@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You are in Home page", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "You are viewing this page", Toast.LENGTH_SHORT).show();
             }
         });
 

@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:hint="Name"
+                    android:hint="ID"
                     android:inputType="textPersonName"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
@@ -95,6 +95,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/blue"
                     android:text="GET" />
             </LinearLayout>
 
@@ -155,6 +156,7 @@
                 <Button
                     android:id="@+id/button7"
                     android:layout_width="50dp"
+                    android:backgroundTint="@color/blue"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_weight="1"
@@ -163,6 +165,7 @@
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="50dp"
+                    android:backgroundTint="@color/blue"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="10dp"
@@ -230,7 +233,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:hint="Name"
+                    android:hint="ID"
                     android:inputType="textPersonName"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
@@ -243,6 +246,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/blue"
                     android:text="GET" />
             </LinearLayout>
             <LinearLayout
@@ -311,6 +315,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/blue"
                     android:text="Update" />
 
                 <Button
@@ -320,6 +325,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="10dp"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/blue"
                     android:text="Clear" />
             </LinearLayout>
 

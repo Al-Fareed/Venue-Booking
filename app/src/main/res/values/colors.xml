@@ -10,5 +10,6 @@
     <color name="grey">#9A9A9A</color>
     <color name="lightblue">#78C8EC</color>
     <color name="ultralightblue">#EEE6F8FF</color>
+    <color name="blue">#EE1328C5</color>
     <color name="uploadButton">#EEB7C7CD</color>
 </resources>
