@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         aHistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent histIntent = new Intent(MainActivity.this, listallvenue.class);
+                Intent histIntent = new Intent(MainActivity.this, history.class);
                 startActivity(histIntent);
             }
         });

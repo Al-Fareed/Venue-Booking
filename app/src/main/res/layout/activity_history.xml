@@ -11,7 +11,7 @@
         android:layout_width="348dp"
         android:layout_height="35dp"
         android:background="@color/lightblue"
-        android:text="All Venues"
+        android:text="Booking HIstory"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25dp"
@@ -92,7 +92,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView20"
+                            android:id="@+id/textView15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -104,7 +104,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textViewloc3"
+                            android:id="@+id/textView4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -112,7 +112,16 @@
                             android:textStyle="bold"
                             android:text="Near Block 10, Eshwar Nagar" />
 
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="SAT, 17 Sep 2022" />
+
                     </LinearLayout>
+
 
                 </LinearLayout>
 
@@ -135,7 +144,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView43"
+                            android:id="@+id/textView16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -147,7 +156,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textViewloc0"
+                            android:id="@+id/textViewloc"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -155,7 +164,13 @@
                             android:textStyle="bold"
                             android:text="Near Block 10, Eshwar Nagar" />
 
-
+                        <TextView
+                            android:id="@+id/textViewdt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="SAT, 17 Sep 2022" />
 
                     </LinearLayout>
 
@@ -180,7 +195,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textViewcricket"
+                            android:id="@+id/textView19"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -192,7 +207,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textViewloc"
+                            android:id="@+id/textViewloc2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -200,6 +215,13 @@
                             android:textStyle="bold"
                             android:text="Near Block 10, Eshwar Nagar" />
 
+                        <TextView
+                            android:id="@+id/textViewdt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="SAT, 17 Sep 2022" />
 
                     </LinearLayout>
 
@@ -216,7 +238,7 @@
                         android:id="@+id/imageView6"
                         android:layout_width="121dp"
                         android:layout_height="match_parent"
-                        app:srcCompat="@mipmap/volleyball_foreground" />
+                        app:srcCompat="@mipmap/cricket_foreground" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -224,7 +246,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textVivolley"
+                            android:id="@+id/textView20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -236,7 +258,7 @@
                             android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/textViewvol"
+                            android:id="@+id/textViewloc3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -244,6 +266,13 @@
                             android:textStyle="bold"
                             android:text="Near Block 10, Eshwar Nagar" />
 
+                        <TextView
+                            android:id="@+id/textViewdt3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="SAT, 15 Sep 2022" />
 
                     </LinearLayout>
 

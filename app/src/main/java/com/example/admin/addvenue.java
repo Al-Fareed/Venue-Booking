@@ -14,7 +14,7 @@ public class addvenue extends AppCompatActivity {
         setContentView(R.layout.activity_addvenue);
 
         String[] arraySpinner = new String[] {
-                "Hall", "Outdoor", "Indoor", "Workshop", "Fest", "Others"
+               "Select Type", "Hall", "Outdoor", "Indoor", "Workshop", "Fest", "Others"
         };
         Spinner s = (Spinner) findViewById(R.id.venuType);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
